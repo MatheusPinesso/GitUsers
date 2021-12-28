@@ -16,7 +16,7 @@ const User: React.FC<UserProps> = ({ login, name, avatar_url, bio, location, cre
         <>
         <Container>
            <ContainerNome >
-               <Text style={styles.styleNome}>Nome: {name}</Text>
+               <Text style={styles.styleNome}>Nomes: {name}</Text>
            </ContainerNome>
 
             <ContainerBio >
